@@ -2,7 +2,16 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background-color: #112d49;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
 }
