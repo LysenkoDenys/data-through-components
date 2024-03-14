@@ -3,13 +3,15 @@ import Parent01 from './components/01-p2c/Parent01';
 import Parent02 from './components/02-c2p/Parent02';
 import Parent03 from './components/03-s2s/Parent03';
 import Parent04 from './components/04-p2gc/Parent04';
-import Parent from './components/Parent';
+import Component from './components/05-p2gc-context/Component';
+// import Parent05 from './components/05-p2gc-context/Parent05';
+// import Parent from './components/Parent';
 
 function App() {
   return (
     <div className="App">
-      <Parent />
-      <hr />
+      {/* <Parent />
+      <hr /> */}
       <h2>01 - From Parent to Child component:</h2>
       <Parent01 />
       <hr />
@@ -21,6 +23,9 @@ function App() {
       <hr />
       <h2>04 - From Parent to GrandChild through the Child component:</h2>
       <Parent04 />
+      <hr />
+      <h2>05 - From Parent to GrandChild by Context:</h2>
+      <Component />
       <hr />
     </div>
   );
